@@ -16,4 +16,116 @@
 #	- Update PATH variable: export PATH=$PATH:</path/to/this/script>
 #	- Give executable permissions: chmod u+x create-and-launch-script 
 
+# stdout
 echo "Hello World!"
+
+# Present working directory
+pwd
+
+# Long List files and directories
+ls -lrt
+
+# Create Directory
+mkdir testdir
+
+# Change Directory
+cd testdir
+cd ..
+
+# Delete Directory
+rm -r testdir
+
+# Go to Home Directory
+cd ~
+
+# Go back to previous Directory
+cd -
+
+# Create file
+touch testfile
+
+# Copy file
+cp testfile testfile2
+
+# Rename file
+mv testfile2 newtestfile
+
+# Remove file
+rm newtestfile
+
+# Add Content to file
+echo "This is a dummy file" > testfile
+
+# View Content of file
+cat testfile
+
+# View file content one page at a time
+less testfile
+
+# Show first 10 lines of the file
+head testfile
+
+# Show last 10 lines of the file
+tail testfile
+
+# To view logs
+# tail -f testfile
+
+# Find file by name
+find /var/log -name system.log
+
+# Search for a string in a file
+grep 'database' /var/log/system.log
+
+# Recursive search in a directory
+grep -r 'database' /var/log
+
+# Change file Permission
+chmod 777 testfile
+
+# Change file ownership
+chown root:root testfile
+ls -l testfile
+rm testfile
+
+# Update Package List
+# sudo apt update
+
+# Install a Package
+# sudo apt install nginx
+
+# Remove Package
+# sudo apt remove nginx
+
+# Show current username
+whoami
+
+# Show user ID and group ID
+id
+
+# Real time system resource usage
+# top
+# htop
+
+# Show disk space usage
+df -h
+
+# Show Memory usage
+free -h
+
+# Show how long the system have been running
+uptime
+
+# Show command history
+history
+
+# Run previous command again
+!!
+
+# Autocomplete command and file name - <Tab key>
+
+# Shutdown
+# sudo shutdown now
+
+# Reboot
+# sudo reboot
