@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Description: This script is to learn
+#	1. How to create and edit bash script
+#	2. Running script using bash as executable
+#	3. Setting file permissions using chmod
+#	4. Adding script to the system's PATH for easy operation
+#	5. Understanding basic linux command-line operations
+#
+# Author: Ankita Khot
+# Date Created: 17th May 2025
+# Date Modified: 17th May 2025
+#
+# Usage: create-and-launch-script
+# Notes:
+#	- Update PATH variable: export PATH=$PATH:</path/to/this/script>
+#	- Give executable permissions: chmod u+x create-and-launch-script 
+
+echo "Hello World!"
