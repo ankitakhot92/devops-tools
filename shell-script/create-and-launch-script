@@ -16,7 +16,7 @@
 #	- Update PATH variable: export PATH=$PATH:</path/to/this/script>
 #	- Give executable permissions: chmod u+x create-and-launch-script 
 
-# stdout
+# Stdout
 echo "Hello World!"
 
 # Present working directory
@@ -60,7 +60,7 @@ echo "This is a dummy file" > testfile
 cat testfile
 
 # View file content one page at a time
-less testfile
+# less testfile
 
 # Show first 10 lines of the file
 head testfile
