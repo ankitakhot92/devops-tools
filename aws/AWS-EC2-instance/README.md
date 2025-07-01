@@ -45,7 +45,7 @@ sudo yum install -y git nginx nodejs
    ```
 3. Start the application:
    ```sh
-   node server.js &
+   node index.js &
    ```
 
 ## Step 5: Configure Firewall and Security Group
@@ -83,7 +83,7 @@ sudo systemctl restart nginx
 Use **PM2** to keep your app running:
 ```sh
 npm install -g pm2
-pm2 start server.js
+pm2 start index.js
 pm2 startup
 pm2 save
 ```
